@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: rgb(205, 125, 50);
+}
+#homePage {
+    background-image: url("../img/MainMenu.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    padding-left: 5%;
+    padding-top: 2%
+    
+}
+
+.mainMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: 20px;
+    padding-left: 5%;
+    padding-top: 4%;
+    button {
+        background-color: transparent;
+        color: rgb(40, 102, 153);
+        border: none;
+        font-size: 400%;
+    }
+    button:hover {
+        color: rgb(82, 127, 170);
+    }
+}
+
+canvas {
+    border: 2px solid black;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

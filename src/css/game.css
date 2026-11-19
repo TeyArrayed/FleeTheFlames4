@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Pause Screen*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+#pauseScreen {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    width: 15%;
+    height: 10%;
+}
+
+#resumeButton {
+    top: 50%;
+    left: 30%;
+
+}
+#resumeButton:hover {
+    background-color: white;
+    color: black;
+}
+
+#settingsButton {
+    top: 50%;
+    left: 55%;
+}
+#settingsButton:hover {
+    background-color: white;
+    color: black;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Settings Screen*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+#settingsScreen {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+label {
+    color: white;
+    position: absolute;
+    height: 50%;
+    top: 25%;
+    left: 5%;
+
+}
+
+#musicVolumeContainer {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+}
+
+#musicVolume {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 35%;
+
+}
+
+#soundVolumeContainer {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+}
+
+#soundVolume {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 35%;
+}
+
+#backButton {
+    position: absolute;
+    top: 60%;
+    left: 42.5%;
+}

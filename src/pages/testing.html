@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hopefully the sound plays</h1>
+    <button id="playButton">Play Button</button>
+    <audio id="audioPlayer" src="./sfx/Random.wav"></audio>
+    <script>
+        const audioPlayer = document.getElementById('audioPlayer');
+        const playButton = document.getElementById('playButton');
+        playButton.addEventListener('click', () => {
+            audioPlayer.play();
+        })
+    </script>
+
+
+
+</body>
+</html>
